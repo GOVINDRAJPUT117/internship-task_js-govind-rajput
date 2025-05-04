@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic News Feed</title>
+  <link rel="stylesheet" href="index4.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Add Article</h2>
+    <input type="text" id="title" placeholder="Enter Title" required>
+    <textarea id="description" placeholder="Enter Description" rows="4" required></textarea>
+    <input type="text" id="image" placeholder="Enter Image URL (optional)">
+    <button onclick="addArticle()">Add Article</button>
+  </div>
+
+  <div class="news-grid" id="newsFeed"></div>
+
+  <div class="pagination" id="paginationControls"></div>
+
+  <script src="index4.js"></script>
+</body>
+</html>

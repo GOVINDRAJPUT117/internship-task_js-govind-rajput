@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .quiz-box {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .option-btn {
+    margin-bottom: 10px;
+  }
+  
+  .feedback {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
